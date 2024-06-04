@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <title>Confeitaria Tia marcia | Home</title>
+
+</head>
+
+<header>
+
+
+    <div id="links">
+        <a href="index.html">Home</a>
+        <a href="servicos.html">Cardápio</a>
+        <a href="javascript:clickButton()">Fale Conosco</a>
+    </div>
+    <figure>
+        <figcaption>
+            <img src="./img/logo.png" alt="logo-cabecalho" id="logo-header">
+        </figcaption>
+    </figure>
+</header>
+
+<body>
+
+
+    <main>
+        <section id="descricao">
+            <figure id="caixa-imagem">
+                <figcaption>
+                    <img src="./img/logo.png" alt="logo" id="logo-img">
+                </figcaption>
+            </figure>
+            <p id="p1">Bem-vindo a <span>Confeitaria Tia Márcia</span></p>
+            <br>
+            <p id="p2">
+                Se você está procurando os melhores doces e bolos artesanais, conheça a Confeitaria da Tia Márcia! Aqui, a tradição e o sabor se encontram em cada receita, trazendo aquele gostinho de infância e carinho em cada mordida. Nossos produtos são feitos com ingredientes selecionados e um toque especial de amor e dedicação.</p>
+            <button id="btn"><a href="servicos.html" id="linkServices">Ver Cardápio</a></button>
+        </section>
+
+
+        <div class="mascara"></div>
+
+        <section id="lado-treino-banner">
+            <figure id="caixa-banner">
+                <figcaption>
+                    <img src="img/paine.jpg" alt="bannerAlt" id="corte-img">
+                </figcaption>
+            </figure>
+        </section>
+
+
+
+        <form id="fale-conosco">
+            <input placeholder="Seu Nome" type="text" name="Nome" id="nameContact">
+            <input placeholder="Seu celular, ex: (xx) xxxxx-xxxx" id="telContact" type="tel" name="Telefone"
+                maxlength="15" onkeyup="handlePhone(event)">
+            <textarea placeholder="Dúvidas / Pedidos" name="Dúvida"></textarea>
+            <button id="btn" class="btn-orcamento" onclick="contactHeader()">Entrar em Contato</button>
+        </form>
+        <div id="mascara-formulario" onclick="desligarMascara()"></div>
+
+
+
+    </main>
+    <div class="link-zap">
+        <a href="#" target="_blank" id="lin">
+            <img src="./img/whatsapp.png" alt="whatsapp-img" id="zap-img">
+        </a>
+    </div>
+
+
+
+</body>
+<script src="./scripts.js"></script>
+
+</html>
