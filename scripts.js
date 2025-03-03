@@ -91,7 +91,7 @@ function formatarCelular(value) {
 function enviarForm() {
 
 
-    const number = "#"
+    const number = "5524993255064"
     const msg = "Olá, aqui abaixo estão as informações do seu agendamento, aguarde e você receberá o retorno aqui sobre seu pedido agendado."
     const name = document.querySelector('#name').value
     const tel = document.querySelector('#tel').value
@@ -100,7 +100,7 @@ function enviarForm() {
     let day = document.querySelector('select').value
 
     const url = "https://wa.me/" + number + "?text="
-        + "Confeitaria Tia Márcia: " + msg + "%0a%0a"
+        + "Clínica Kézia Simões: " + msg + "%0a%0a"
         + "Nome: " + name + "." + "%0a"
         + "Número: " + tel + "." + "%0a"
         + "Pedido: " + order + "." + "%0a"
@@ -113,7 +113,7 @@ function enviarForm() {
 
 function contactHeader() {
 
-    const number = "#"
+    const number = "5524993255064"
     const name = document.querySelector('#nameContact').value
     const tel = document.querySelector('#telContact').value
     const msg = document.querySelector('textarea').value
@@ -134,40 +134,41 @@ const imgForm = document.querySelector('#orderForm')
 
 function mudarImg1() {
     clickButton()
-    imgForm.src = 'img/edita bolo de milho.jpg'
-    order.value = "Bolo de Milho"
-    price.value = "R$ 20,00"
+    imgForm.src = 'img/sombracelha.jpg'
+    order.value = "Micropigmentação"
+    price.value = "R$ 249,99"
 }
 
 function mudarImg2() {
     clickButton()
-    imgForm.src = 'img/boloCenoura.jpg'
-    order.value = "Bolo de Cenoura"
-    price.value = "R$ 22,00"
+    imgForm.src = 'img/cilhoes.jpg'
+    order.value = "Cílios"
+    price.value = "R$ 79,99"
 }
 
 function mudarImg3() {
     clickButton()
-    imgForm.src = 'img/bolo e brigadeiro.jpg'
-    order.value = "Bolo Mole"
-    price.value = "R$ 20,00"
+    imgForm.src = 'img/sombracelha.ss.jpg'
+    order.value = "Design"
+    price.value = "R$ 39,99"
 
 
 }
 
 function mudarImg4() {
     clickButton()
-    imgForm.src = 'img/boloFofo.jpg'
-    order.value = "Bolo Fofo"
-    price.value = "R$ 20,00"
+    imgForm.src = 'img/pigmentação.jpg'
+    order.value = "design + Henna"
+    price.value = "R$ 39,99"
 }
 
 
 
 function mudarImg5() {
     clickButton()
-    imgForm.src = 'img/download (1)beijimho.jpg'
-    order.value = "Beijinho"
+    imgForm.src = 'img/keziapacote.jpg'
+    order.value = "design + Henna + Cílios"
+    price.value = "R$ 119,99"
 
 }
 
@@ -175,7 +176,8 @@ function mudarImg5() {
 
 function mudarImg6() {
     clickButton()
-    imgForm.src = 'img/pacotedoce.jpg'
-     order.value = "doces"
+    imgForm.src = 'img/kziaarenna.jpg'
+     order.value = "Micropigmentação + Cílios"
+     price.value = "R$ 299,99"
 
 }
