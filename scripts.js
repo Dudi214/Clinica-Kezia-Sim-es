@@ -159,7 +159,7 @@ function mudarImg4() {
     clickButton()
     imgForm.src = 'img/pigmentação.jpg'
     order.value = "design + Henna"
-    price.value = "R$ 39,99"
+    price.value = "R$ 69,99"
 }
 
 
